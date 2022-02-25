@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" id="light-mode" href="css/login.css">
+    <link rel="stylesheet" id="dark-mode" href="css/dark-mode.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://img.icons8.com/ios/50/000000/new-moon--v2.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Login 2</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <p class="logo">Your Logo</p>
+        </header>
+        <main>
+            <section>
+                <h2>Welcome!</h2>
+                <h1>Sign in to</h1>
+                <h4>lorem Ipsum is simply</h4>
+            </section>
+            <form action="#" method="post">
+                <label class="username">
+                <p>User name</p>
+                <input type="text" placeholder="Enter your user name">
+            </label>
+
+                <label class="password">
+                <p>Password</p>
+                <input type="password" placeholder="Enter your Password">
+            </label>
+
+                <label class="checkbox">
+                <input type="checkbox">
+                <div class="checkmark"></div>
+                <p>Remember me</p>
+            </label>
+                <a class="forgot-password" href="#">Forgot Password?</a>
+                <button class="login_button" onclick="openModal()">Login</button>
+
+                <label class="register">
+                <p>Don't have an Account? <a href="#" class="link"> Register</a></p>
+            </label>
+            </form>
+        </main>
+    </div>
+    <img class="light" src="img/small-team-discussing-ideas-2194220-0.png" alt="login page image">
+    <img class="dark" src="img/login_dark.png" alt="login dark image">
+    <button class="theme" onclick="changeTheme()"></button>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

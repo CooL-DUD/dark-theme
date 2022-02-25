@@ -1,0 +1,418 @@
+    @import url(reset.css);
+    .logo {
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        left: 42px;
+        top: 31px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    main {
+        position: absolute;
+        width: 505px;
+        height: 780px;
+        left: 111px;
+        top: 114px;
+        background: #FFFFFF;
+        border: 0.5px solid #878787;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+    }
+    
+    section {
+        position: absolute;
+        left: 35px;
+        top: 36px;
+        bottom: 526px;
+        right: 210px;
+    }
+    
+    label {
+        width: 423px;
+        display: block;
+    }
+    
+    h2 {
+        width: 132px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 37px;
+        color: #000000;
+        margin-bottom: 25px;
+    }
+    
+    h1 {
+        width: 160px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 31px;
+        line-height: 40px;
+        color: #000000;
+        z-index: 3;
+        margin-bottom: 1px;
+    }
+    
+    h4 {
+        width: 260px;
+        height: 24px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        z-index: 3;
+    }
+    
+    form {
+        position: absolute;
+        top: 200px;
+        left: 35px;
+        right: 47px;
+        bottom: 20px;
+        height: 100px;
+    }
+    
+    p {
+        margin-bottom: 9px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    input {
+        background: #FFFFFF;
+        border: 0.6px solid #282828;
+        box-sizing: border-box;
+        border-radius: 6px;
+        height: 59px;
+        width: 423px;
+        padding-left: 27px;
+    }
+    
+    .email {
+        margin-bottom: 24px;
+    }
+    
+    .username {
+        margin-bottom: 24px;
+    }
+    
+    .password {
+        margin-bottom: 24px;
+    }
+    
+    .checkbox {
+        border-color: black;
+        margin-bottom: 38px;
+    }
+    
+    .checkbox p {
+        position: absolute;
+        width: 90px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        left: 25px;
+        top: 268px;
+    }
+    
+    .checkbox input {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        top: 26px;
+        margin-right: 10px;
+        opacity: 0;
+    }
+    
+    .checkmark {
+        width: 15px;
+        height: 15px;
+        top: 26px;
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        z-index: 2;
+    }
+    
+    .forgot-password {
+        position: absolute;
+        width: 108px;
+        height: 18px;
+        right: 47px;
+        top: 268px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        color: #4D4D4D;
+        z-index: 2;
+        margin-bottom: 38px;
+    }
+    
+    .register_button {
+        width: 423px;
+        height: 57px;
+        background: #000000;
+        border-radius: 6px;
+        color: blanchedalmond;
+        position: absolute;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-bottom: 56px;
+    }
+    
+    .register {
+        position: absolute;
+        top: 540px;
+        text-align: center;
+    }
+    
+    .register p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7D7D7D;
+    }
+    
+    .register a {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    img {
+        position: absolute;
+        width: 827px;
+        height: 650px;
+        left: 598px;
+        top: 127px;
+    }
+    
+    .light {
+        opacity: 2;
+    }
+    
+    .dark {
+        opacity: 0;
+    }
+    
+    .theme {
+        position: absolute;
+        top: 31px;
+        right: 42px;
+        width: 53.5px;
+        height: 53.5px;
+        border-radius: 100%;
+        background-image: url("https://img.icons8.com/ios/50/000000/new-moon--v2.png");
+    }
+    
+    @media (min-width:100px) and (max-width:1400px) {
+        .container {
+            width: 375px;
+            height: 750px;
+            margin: 0 auto;
+        }
+        img {
+            display: none;
+        }
+        .logo {
+            position: relative;
+            width: 100px;
+            height: 30px;
+            left: 26px;
+            top: 18px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        main {
+            position: relative;
+            width: 326px;
+            height: 757px;
+            left: 26px;
+            top: 80px;
+            background: #FFFFFF;
+            border: 0.5px solid #878787;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+        }
+        section {
+            position: absolute;
+            width: 200px;
+            left: 35px;
+            top: 36px;
+            bottom: 526px;
+            right: 210px;
+            margin-bottom: 48px;
+        }
+        label {
+            width: 423px;
+            display: block;
+        }
+        header {
+            width: 280px;
+        }
+        h2 {
+            width: 132px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 37px;
+            color: #000000;
+            margin-bottom: 25px;
+        }
+        h1 {
+            width: 160px;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 31px;
+            line-height: 40px;
+            color: #000000;
+            z-index: 3;
+            margin-bottom: 1px;
+        }
+        h4 {
+            width: 260px;
+            height: 24px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            z-index: 3;
+        }
+        form {
+            position: relative;
+            width: 290px;
+            top: 180px;
+            left: 20px;
+            right: 47px;
+            bottom: 20px;
+            height: 100px;
+        }
+        p {
+            width: 260px;
+            margin-bottom: 9px;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        input {
+            background: #FFFFFF;
+            border: 0.6px solid #282828;
+            box-sizing: border-box;
+            border-radius: 6px;
+            height: 59px;
+            width: 279px;
+            padding-left: 27px;
+        }
+        .email {
+            width: 278px;
+            left: -20px;
+            top: 0px;
+            margin-bottom: 24px;
+        }
+        .username {
+            left: -13px;
+            top: 130px;
+            margin-bottom: 24px;
+            width: 278px;
+        }
+        .password {
+            left: -13px;
+            top: 245px;
+            margin-bottom: 24px;
+            width: 278px;
+        }
+        .checkbox {
+            width: 280px;
+            position: absolute;
+            left: -13px;
+            top: 223px;
+            border-color: black;
+            margin-bottom: 38px;
+        }
+        .checkbox p {
+            position: absolute;
+            width: 90px;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 18px;
+            left: 25px;
+            top: 25px;
+        }
+        .checkbox input {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            top: 26px;
+            margin-right: 10px;
+            opacity: 0;
+        }
+        .checkmark {
+            width: 15px;
+            height: 15px;
+            top: 26px;
+            border-color: black;
+            border-width: 1px;
+            border-style: solid;
+            z-index: 2;
+        }
+        .forgot-password {
+            position: absolute;
+            width: 108px;
+            height: 18px;
+            right: 22px;
+            top: 248px;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 18px;
+            color: #4D4D4D;
+            z-index: 2;
+            margin-bottom: 38px;
+        }
+        .register_button {
+            width: 278.84px;
+            height: 57px;
+            left: 0px;
+            top: 450px;
+            background: #000000;
+            border-radius: 6px;
+            color: blanchedalmond;
+            position: absolute;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-bottom: 56px;
+        }
+        .register {
+            width: 280px;
+            top: 540px;
+            text-align: center;
+        }
+        .register p {
+            position: absolute;
+            left: 0px;
+            top: -20px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 24px;
+            color: #7D7D7D;
+        }
+        .register a {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            text-decoration: none;
+            color: black;
+        }
+    }
